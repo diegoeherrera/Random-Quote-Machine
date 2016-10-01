@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Lalezar';
+
+
+
+body{
+
+background:#FF9B6D;
+
+}
+
+.title{
+
+	font-family: 'Lalezar', cursive;
+	font-weight:light;
+	font-size:30px;
+	text-align:center;
+	letter-spacing: 2px;
+	color:#EAFD89;
+
+}
+
+/*Quote Styling*/
+
+#quotes{
+  position:relative;
+  height:400px;
+  width:650px;
+  border:1px dotted #FFD37C;
+  color:#FFD37C;
+
+  border-radius:2%;
+  margin: auto;
+
+	  #quote{
+	  
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	  position:relative;
+	  text-align:center;
+	  padding:20px;
+	  font-family: 'Oswald', sans-serif;
+	  font-size:40px;
+	  
+	}
+
+	#author{
+	  display:block;
+	  text-align:right;
+	  font-size:20px;
+	  font-weight:bold;
+	 
+	}
+}
+
+
+
+
+/*Buttons*/
+.botones{
+  width:100%;
+  text-align:center;
+
+
+	#new-quote{
+	 
+	 width:200px;
+	  height:50px;
+	  background:rgb(240,230,140);
+	  //display:block;
+	  margin:10px auto;
+	  font-family: 'Oswald', sans-serif;
+	  font-weight:bold;
+	 
+	}
+
+	#tweet{
+	 
+	 width:200px;
+	  height:50px;
+	  background:rgb(240,230,140);
+	  //display:block;
+	  margin:10px auto;
+	  font-family: 'Oswald', sans-serif;
+	  font-weight:bold;
+	 
+	}
+
+	#tweet:hover,#new-quote:hover{
+	  background:#FF9B6D;
+	  color:white;
+	  
+	}
+
+
+
+	.twitter-share-button{
+
+	  width:200px;
+	  height:50px;
+	}
+}
